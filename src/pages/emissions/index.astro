@@ -2,17 +2,17 @@
 import "../../styles/global.css";
 import data from "../../data/emissions.json";
 import Layout from "../../layouts/Layout.astro"
-import FilterableSortableTable from "../../components/FilterableSortableTable.jsx"
+import DynamicTable from "../../components/DynamicTable.jsx"
 ---
 
 <Layout>
     <main class="flex flex-col gap-8">
         <div class="flex flex-col gap-2">
-            <h1 class="text-5xl font-bold">CO₂-Emissionen</h1>
-            <h2 class="text-lg font-medium opacity-60">Daten und Fakten.</h2>
+            <h1 class="text-4xl md:text-5xl font-bold">CO₂-Emissionen</h1>
+            <h2 class="text-xl font-medium opacity-60">Daten und Fakten.</h2>
         </div>
         <article class="flex flex-col gap-8">
-            <FilterableSortableTable client:load data={data} />
+            <DynamicTable client:load data={data} />
         </article>
     </main>
 </Layout>

@@ -3,63 +3,54 @@
     "id": 1,
     "Land": "Deutschland",
     "Unternehmen": "EnerTech AG",
-    "CO₂-Emissionen": "5.200.000",
-    "Quelle": "Stromerzeugung aus Braunkohle."
+    "CO₂-Emissionen": "5.200.000"
   },
   {
     "id": 2,
     "Land": "USA",
     "Unternehmen": "TransGlobal Oil Corp",
-    "CO₂-Emissionen": "12.500.000",
-    "Quelle": "Ölraffination und Transport"
+    "CO₂-Emissionen": "12.500.000"
   },
   {
     "id": 3,
     "Land": "China",
     "Unternehmen": "RedSun Industries Ltd.",
-    "CO₂-Emissionen": "8.900.000",
-    "Quelle": "Zementproduktion und Kohleverstromung"
+    "CO₂-Emissionen": "8.900.000"
   },
   {
     "id": 4,
     "Land": "Indien",
     "Unternehmen": "Bharat Steel Works",
-    "CO₂-Emissionen": "6.100.000",
-    "Quelle": "Stahlerzeugung und Schwerindustrie"
+    "CO₂-Emissionen": "6.100.000"
   },
   {
     "id": 5,
     "Land": "Brasilien",
     "Unternehmen": "AgroNova Export",
-    "CO₂-Emissionen": "3.200.000",
-    "Quelle": "Abholzung für Soja- und Rinderfarmen"
+    "CO₂-Emissionen": "3.200.000"
   },
   {
     "id": 6,
     "Land": "Kanada",
     "Unternehmen": "NorthernGas Inc.",
-    "CO₂-Emissionen": "4.400.000",
-    "Quelle": "Erdgasförderung und -verarbeitung"
+    "CO₂-Emissionen": "4.400.000"
   },
   {
     "id": 7,
     "Land": "Südafrika",
     "Unternehmen": "SouthCoal Mining Ltd.",
-    "CO₂-Emissionen": "7.000.000",
-    "Quelle": "Kohleabbau und -export"
+    "CO₂-Emissionen": "7.000.000"
   },
   {
     "id": 8,
     "Land": "Russland",
     "Unternehmen": "ArcticEnergy",
-    "CO₂-Emissionen": "5.800.000",
-    "Quelle": "Gasverflüssigung (LGN) und Energieexporte"
+    "CO₂-Emissionen": "5.800.000"
   },
   {
     "id": 9,
     "Land": "USA",
     "Unternehmen": "MegaCem SA",
-    "CO₂-Emissionen": "2.600.000",
-    "Quelle": "Zementproduktion"
+    "CO₂-Emissionen": "2.600.000"
   }
 ]

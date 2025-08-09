@@ -6,5 +6,5 @@
 }
 
 main {
-    @apply m-10;
+    @apply m-5 md:m-10;
 }

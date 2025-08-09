@@ -1,6 +1,6 @@
 import React, {useMemo, useState} from 'react';
 
-export default function FilterableSortableTable({data}) {
+export default function DynamicTable({data}) {
     const [sortKey, setSortKey] = useState(null);
     const [sortOrder, setSortOrder] = useState('asc');
     const [filterText, setFilterText] = useState('');
@@ -46,7 +46,7 @@ export default function FilterableSortableTable({data}) {
             <label htmlFor="search" className="hidden">Textsuche nach einem Land oder Unternehmen</label>
             <input type="text" id="search" placeholder="Suche nach einem Land oder Unternehmen..." value={filterText}
                    onChange={e => setFilterText(e.target.value)}
-                   className="w-full rounded-xl border-2 border-gray-300 px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light max-w-1/2"
+                   className="w-full rounded-xl border-2 border-gray-300 px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light max-w-[48rem]"
             />
 
             <table className="min-w-full border-none text-left text-sm">
