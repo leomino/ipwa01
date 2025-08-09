@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+main {
+    @apply m-10;
+}
