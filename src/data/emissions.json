@@ -1,0 +1,56 @@
+[
+  {
+    "land": "Deutschland",
+    "unternehmen": "EnerTech AG",
+    "co2": "5.200.000",
+    "quelle": "Stromerzeugung aus Braunkohle."
+  },
+  {
+    "land": "USA",
+    "unternehmen": "TransGlobal Oil Corp",
+    "co2": "12.500.000",
+    "quelle": "Ölraffination und Transport"
+  },
+  {
+    "land": "China",
+    "unternehmen": "RedSun Industries Ltd.",
+    "co2": "8.900.000",
+    "quelle": "Zementproduktion und Kohleverstromung"
+  },
+  {
+    "land": "Indien",
+    "unternehmen": "Bharat Steel Works",
+    "co2": "6.100.000",
+    "quelle": "Stahlerzeugung und Schwerindustrie"
+  },
+  {
+    "land": "Brasilien",
+    "unternehmen": "AgroNova Export",
+    "co2": "3.200.000",
+    "quelle": "Abholzung für Soja- und Rinderfarmen"
+  },
+  {
+    "land": "Kanada",
+    "unternehmen": "NorthernGas Inc.",
+    "co2": "4.400.000",
+    "quelle": "Erdgasförderung und -verarbeitung"
+  },
+  {
+    "land": "Südafrika",
+    "unternehmen": "SouthCoal Mining Ltd.",
+    "co2": "7.000.000",
+    "quelle": "Kohleabbau und -export"
+  },
+  {
+    "land": "Russland",
+    "unternehmen": "ArcticEnergy",
+    "co2": "5.800.000",
+    "quelle": "Gasverflüssigung (LGN) und Energieexporte"
+  },
+  {
+    "land": "USA",
+    "unternehmen": "MegaCem SA",
+    "co2": "2.600.000",
+    "quelle": "Zementproduktion"
+  }
+]
