@@ -1,9 +1,76 @@
 ---
 import "../styles/global.css";
 import Layout from '../layouts/Layout.astro';
-import Home from '../components/Home.astro';
 ---
 
 <Layout>
-    <Home/>
+    <main class="flex flex-col gap-8">
+        <div class="flex flex-col gap-2">
+            <h1 class="text-5xl font-bold">Was ist der Klimawandel?</h1>
+            <h2 class="text-lg font-medium opacity-60">Und andere häufig gestellte Fragen.</h2>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Was ist der Klimawandel?</h1>
+                <p>
+                    Der menschengemachte Klimawandel bezeichnet die vom Menschen verursachte Veränderung
+                    des Klimas, vor allem durch den Ausstoß von Treibhausgasen wie CO₂, Methan und Lachgas,
+                    die zur Erderwärmung führen.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Was ist der Treibhauseffekt?</h1>
+                <p>
+                    Der Treibhauseffekt ist ein natürlicher Prozess, bei dem bestimmte Gase in der Atmosphäre Wärme
+                    speichern. Ohne ihn wäre es zu kalt zum Leben. Der Mensch verstärkt diesen Effekt durch zusätzlichen
+                    Ausstoß von Treibhausgasen.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Was verursacht den Klimawandel hauptsächlich?</h1>
+                <p>
+                    Hauptverursacher ist die Verbrennung fossiler Brennstoffe (Kohle, Öl, Gas) für Strom, Verkehr und
+                    Industrie. Auch Landwirtschaft und Abholzung tragen bei.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Was bedeutet "1,5-Grad-Ziel"?</h1>
+                <p>
+                    Das Ziel der internationalen Klimapolitik ist, die Erderwärmung auf maximal 1,5°C im Vergleich zur
+                    vorindustriellen Zeit zu begrenzen, um die schlimmsten Folgen zu vermeiden.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Wie wissen wir, dass der Mensch schuld ist?</h1>
+                <p>
+                    Messdaten zeigen, dass CO₂-Konzentrationen stark seit der Industrialisierung gestiegen sind.
+                    Klimamodelle und Vergleichsstudien zeigen, dass natürliche Ursachen den beobachteten
+                    Temperaturanstieg nicht erklären können – menschlicher Einfluss ist notwendig, um die Erwärmung zu
+                    erklären.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Reicht es, wenn Deutschland allein etwas tut?</h1>
+                <p>
+                    Deutschland allein kann das Problem nicht lösen, aber als Industrienation hat es eine
+                    Vorbildfunktion. Globaler Klimaschutz funktioniert nur, wenn alle Länder ihren Beitrag leisten.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Ist es nicht schon immer wärmer und kälter geworden?</h1>
+                <p>
+                    Ja, das Klima schwankt natürlich. Aber der aktuelle Anstieg ist schneller und stärker als bei
+                    natürlichen Klimaveränderungen in der Vergangenheit – und eindeutig mit menschlichen Aktivitäten
+                    verbunden.
+                </p>
+            </article>
+            <article class="flex flex-col gap-1">
+                <h1 class="font-bold">Wie schnell müssen wir handeln?</h1>
+                <p>
+                    Sehr schnell. Die kommenden Jahre sind entscheidend. Laut IPCC-Berichten müssen die globalen
+                    Emissionen bis etwa 2030 fast halbiert werden, um das 1,5-Grad-Ziel noch zu erreichen.
+                </p>
+            </article>
+        </div>
+    </main>
 </Layout>
