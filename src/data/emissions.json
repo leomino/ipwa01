@@ -1,65 +1,65 @@
 [
   {
     "id": 1,
-    "land": "Deutschland",
-    "unternehmen": "EnerTech AG",
-    "co2": "5.200.000",
-    "quelle": "Stromerzeugung aus Braunkohle."
+    "Land": "Deutschland",
+    "Unternehmen": "EnerTech AG",
+    "CO₂-Emissionen": "5.200.000",
+    "Quelle": "Stromerzeugung aus Braunkohle."
   },
   {
     "id": 2,
-    "land": "USA",
-    "unternehmen": "TransGlobal Oil Corp",
-    "co2": "12.500.000",
-    "quelle": "Ölraffination und Transport"
+    "Land": "USA",
+    "Unternehmen": "TransGlobal Oil Corp",
+    "CO₂-Emissionen": "12.500.000",
+    "Quelle": "Ölraffination und Transport"
   },
   {
     "id": 3,
-    "land": "China",
-    "unternehmen": "RedSun Industries Ltd.",
-    "co2": "8.900.000",
-    "quelle": "Zementproduktion und Kohleverstromung"
+    "Land": "China",
+    "Unternehmen": "RedSun Industries Ltd.",
+    "CO₂-Emissionen": "8.900.000",
+    "Quelle": "Zementproduktion und Kohleverstromung"
   },
   {
     "id": 4,
-    "land": "Indien",
-    "unternehmen": "Bharat Steel Works",
-    "co2": "6.100.000",
-    "quelle": "Stahlerzeugung und Schwerindustrie"
+    "Land": "Indien",
+    "Unternehmen": "Bharat Steel Works",
+    "CO₂-Emissionen": "6.100.000",
+    "Quelle": "Stahlerzeugung und Schwerindustrie"
   },
   {
     "id": 5,
-    "land": "Brasilien",
-    "unternehmen": "AgroNova Export",
-    "co2": "3.200.000",
-    "quelle": "Abholzung für Soja- und Rinderfarmen"
+    "Land": "Brasilien",
+    "Unternehmen": "AgroNova Export",
+    "CO₂-Emissionen": "3.200.000",
+    "Quelle": "Abholzung für Soja- und Rinderfarmen"
   },
   {
     "id": 6,
-    "land": "Kanada",
-    "unternehmen": "NorthernGas Inc.",
-    "co2": "4.400.000",
-    "quelle": "Erdgasförderung und -verarbeitung"
+    "Land": "Kanada",
+    "Unternehmen": "NorthernGas Inc.",
+    "CO₂-Emissionen": "4.400.000",
+    "Quelle": "Erdgasförderung und -verarbeitung"
   },
   {
     "id": 7,
-    "land": "Südafrika",
-    "unternehmen": "SouthCoal Mining Ltd.",
-    "co2": "7.000.000",
-    "quelle": "Kohleabbau und -export"
+    "Land": "Südafrika",
+    "Unternehmen": "SouthCoal Mining Ltd.",
+    "CO₂-Emissionen": "7.000.000",
+    "Quelle": "Kohleabbau und -export"
   },
   {
     "id": 8,
-    "land": "Russland",
-    "unternehmen": "ArcticEnergy",
-    "co2": "5.800.000",
-    "quelle": "Gasverflüssigung (LGN) und Energieexporte"
+    "Land": "Russland",
+    "Unternehmen": "ArcticEnergy",
+    "CO₂-Emissionen": "5.800.000",
+    "Quelle": "Gasverflüssigung (LGN) und Energieexporte"
   },
   {
     "id": 9,
-    "land": "USA",
-    "unternehmen": "MegaCem SA",
-    "co2": "2.600.000",
-    "quelle": "Zementproduktion"
+    "Land": "USA",
+    "Unternehmen": "MegaCem SA",
+    "CO₂-Emissionen": "2.600.000",
+    "Quelle": "Zementproduktion"
   }
 ]
