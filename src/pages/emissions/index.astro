@@ -12,7 +12,7 @@ import DynamicTable from "../../components/DynamicTable.jsx"
             <h2 class="text-xl font-medium opacity-60">Daten und Fakten.</h2>
         </div>
         <article class="flex flex-col gap-8">
-            <DynamicTable client:load data={data} searchPlaceholder="Suche nach einem Land oder Unternehmen..."/>
+            <DynamicTable client:load data={data} locale="de"/>
         </article>
     </main>
 </Layout>

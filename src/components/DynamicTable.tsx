@@ -1,16 +1,19 @@
 import React, { useState, useMemo } from 'react';
+import {useTranslations} from "../i18n/utils.ts";
 
 type SortOrder = 'asc' | 'desc';
 
 interface DynamicTableProps<T extends Record<string, any>> {
     data: T[];
-    searchPlaceholder: string;
+    locale: 'de' | 'ar';
 }
 
-export default function DynamicTable<T extends Record<string, any>>({ data, searchPlaceholder }: DynamicTableProps<T>) {
+export default function DynamicTable<T extends Record<string, any>>({ data, locale }: DynamicTableProps<T>) {
     const [sortKey, setSortKey] = useState<keyof T | null>(null);
     const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
     const [filterText, setFilterText] = useState('');
+
+    const t = useTranslations(locale);
 
     const filteredData = useMemo(() => {
         if (!filterText) return data;
@@ -52,7 +55,7 @@ export default function DynamicTable<T extends Record<string, any>>({ data, sear
         <div className="flex flex-col gap-6">
             <input
                 type="text"
-                placeholder={searchPlaceholder}
+                placeholder={t('search.placeholder')}
                 value={filterText}
                 onChange={e => setFilterText(e.target.value)}
                 className="w-full rounded-xl border-2 border-gray-300 px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light max-w-[48rem]"
@@ -70,7 +73,7 @@ export default function DynamicTable<T extends Record<string, any>>({ data, sear
                                 style={{ cursor: 'pointer', userSelect: 'none' }}
                                 onClick={() => handleSort(header)}
                             >
-                                {String(header)}
+                                {t(header as any)}
                                 {sortKey === header ? (sortOrder === 'asc' ? ' ↑' : ' ↓') : ''}
                             </th>
                         ))}
@@ -97,7 +100,7 @@ export default function DynamicTable<T extends Record<string, any>>({ data, sear
                             colSpan={headers.length}
                             style={{ textAlign: 'center' }}
                         >
-                            Keine Einträge gefunden.
+                            {t('table.noEntries')}
                         </td>
                     </tr>
                 )}
