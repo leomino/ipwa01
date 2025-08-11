@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "Land": "Deutschland",
-    "Unternehmen": "EnerTech AG",
-    "CO₂-Emissionen": "5.200.000"
+    "country": "Deutschcountry",
+    "company": "EnerTech AG",
+    "emissions": "5.200.000"
   },
   {
     "id": 2,
-    "Land": "USA",
-    "Unternehmen": "TransGlobal Oil Corp",
-    "CO₂-Emissionen": "12.500.000"
+    "country": "USA",
+    "company": "TransGlobal Oil Corp",
+    "emissions": "12.500.000"
   },
   {
     "id": 3,
-    "Land": "China",
-    "Unternehmen": "RedSun Industries Ltd.",
-    "CO₂-Emissionen": "8.900.000"
+    "country": "China",
+    "company": "RedSun Industries Ltd.",
+    "emissions": "8.900.000"
   },
   {
     "id": 4,
-    "Land": "Indien",
-    "Unternehmen": "Bharat Steel Works",
-    "CO₂-Emissionen": "6.100.000"
+    "country": "Indien",
+    "company": "Bharat Steel Works",
+    "emissions": "6.100.000"
   },
   {
     "id": 5,
-    "Land": "Brasilien",
-    "Unternehmen": "AgroNova Export",
-    "CO₂-Emissionen": "3.200.000"
+    "country": "Brasilien",
+    "company": "AgroNova Export",
+    "emissions": "3.200.000"
   },
   {
     "id": 6,
-    "Land": "Kanada",
-    "Unternehmen": "NorthernGas Inc.",
-    "CO₂-Emissionen": "4.400.000"
+    "country": "Kanada",
+    "company": "NorthernGas Inc.",
+    "emissions": "4.400.000"
   },
   {
     "id": 7,
-    "Land": "Südafrika",
-    "Unternehmen": "SouthCoal Mining Ltd.",
-    "CO₂-Emissionen": "7.000.000"
+    "country": "Südafrika",
+    "company": "SouthCoal Mining Ltd.",
+    "emissions": "7.000.000"
   },
   {
     "id": 8,
-    "Land": "Russland",
-    "Unternehmen": "ArcticEnergy",
-    "CO₂-Emissionen": "5.800.000"
+    "country": "Russcountry",
+    "company": "ArcticEnergy",
+    "emissions": "5.800.000"
   },
   {
     "id": 9,
-    "Land": "USA",
-    "Unternehmen": "MegaCem SA",
-    "CO₂-Emissionen": "2.600.000"
+    "country": "USA",
+    "company": "MegaCem SA",
+    "emissions": "2.600.000"
   }
 ]
