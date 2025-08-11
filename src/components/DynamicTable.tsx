@@ -4,9 +4,10 @@ type SortOrder = 'asc' | 'desc';
 
 interface DynamicTableProps<T extends Record<string, any>> {
     data: T[];
+    searchPlaceholder: string;
 }
 
-export default function DynamicTable<T extends Record<string, any>>({ data }: DynamicTableProps<T>) {
+export default function DynamicTable<T extends Record<string, any>>({ data, searchPlaceholder }: DynamicTableProps<T>) {
     const [sortKey, setSortKey] = useState<keyof T | null>(null);
     const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
     const [filterText, setFilterText] = useState('');
@@ -49,13 +50,9 @@ export default function DynamicTable<T extends Record<string, any>>({ data }: Dy
 
     return (
         <div className="flex flex-col gap-6">
-            <label htmlFor="search" className="hidden">
-                Textsuche nach einem Land oder Unternehmen
-            </label>
             <input
                 type="text"
-                id="search"
-                placeholder="Suche nach einem Land oder Unternehmen..."
+                placeholder={searchPlaceholder}
                 value={filterText}
                 onChange={e => setFilterText(e.target.value)}
                 className="w-full rounded-xl border-2 border-gray-300 px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light max-w-[48rem]"

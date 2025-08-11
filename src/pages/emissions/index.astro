@@ -1,7 +1,7 @@
 ---
 import "../../styles/global.css";
-import data from "../../data/emissions.json";
-import Layout from "../../layouts/Layout.astro"
+import data from "../../data/de/emissions.json";
+import Layout from "../../layouts/LtrLayout.astro"
 import DynamicTable from "../../components/DynamicTable.jsx"
 ---
 
@@ -12,7 +12,7 @@ import DynamicTable from "../../components/DynamicTable.jsx"
             <h2 class="text-xl font-medium opacity-60">Daten und Fakten.</h2>
         </div>
         <article class="flex flex-col gap-8">
-            <DynamicTable client:load data={data} />
+            <DynamicTable client:load data={data} searchPlaceholder="Suche nach einem Land oder Unternehmen..."/>
         </article>
     </main>
 </Layout>

@@ -1,0 +1,18 @@
+---
+import "../../../styles/global.css";
+import data from "../../../data/ar/emissions.json";
+import Layout from "../../../layouts/RtlLayout.astro"
+import DynamicTable from "../../../components/DynamicTable.jsx"
+---
+
+<Layout>
+    <main class="flex flex-col gap-8">
+        <div class="flex flex-col gap-2">
+            <h1 class="text-4xl md:text-5xl font-bold">انبعاثات ثاني أكسيد الكربون</h1>
+            <h2 class="text-xl font-medium opacity-60">البيانات والحقائق.</h2>
+        </div>
+        <article class="flex flex-col gap-8">
+            <DynamicTable client:load data={data} searchPlaceholder="ما هو تغير المناخ؟"/>
+        </article>
+    </main>
+</Layout>

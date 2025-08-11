@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "country": "Deutschcountry",
+    "country": "Deutschland",
     "company": "EnerTech AG",
     "emissions": "5.200.000"
   },
@@ -43,7 +43,7 @@
   },
   {
     "id": 8,
-    "country": "Russcountry",
+    "country": "Russland",
     "company": "ArcticEnergy",
     "emissions": "5.800.000"
   },

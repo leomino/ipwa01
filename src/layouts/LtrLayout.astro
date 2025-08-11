@@ -1,8 +1,9 @@
 ---
 import Header from '../components/Header.astro';
+import Footer from "../components/Footer.astro";
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -10,15 +11,15 @@ import Header from '../components/Header.astro';
 		<meta name="generator" content={Astro.generator} />
 		<title>Blue Peace</title>
 	</head>
-	<body>
+	<body class="my-0 mx-auto w-full max-w-[1300px] h-full">
         <Header/>
-		<slot />
-	</body>
+        <slot />
+        <Footer/>
+    </body>
 </html>
 
 <style>
-	html,
-	body {
+	html {
 		margin: 0 auto;
 		width: 100%;
         max-width: 1300px;
