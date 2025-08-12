@@ -2,16 +2,30 @@
 import "../styles/global.css";
 import {languages} from "../i18n/ui";
 import {getRelativeLocaleUrl} from "astro:i18n";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<footer class="bg-gray-100 absolute bottom-0 left-0 w-screen">
-    <div class="px-5 py-5 md:px-10 md:py-10 max-w-[1300px] mx-auto">
-        <ul>
-            {Object.entries(languages).map(([lang, label]) => (
-                    <li>
-                        <a href={getRelativeLocaleUrl(lang)}>{label}</a>
-                    </li>
-            ))}
-        </ul>
+<footer class="w-full bg-gray-100 flex justify-between p-10 mt-auto items-start text-sm">
+    <div>
+        <div class="font-bold">Sprache</div>
+        {Object.entries(languages).map(([lang, label]) => (
+                <div>
+                    <a href={getRelativeLocaleUrl(lang)}>{label}</a>
+                </div>
+        ))}
+    </div>
+    <div>
+        <div class="font-bold">{t('footer.contact')}</div>
+        <div>kontakt@blue-peace.info</div>
+        <div>0123 /456789</div>
+    </div>
+    <div>
+        <div class="font-bold">{t('footer.imprint')}</div>
+        <div>Blue Peace e.V.</div>
+        <div>Musterstraße 24</div>
+        <div>Musterstadt</div>
     </div>
 </footer>

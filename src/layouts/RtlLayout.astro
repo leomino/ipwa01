@@ -11,19 +11,9 @@ import Footer from "../components/Footer.astro";
         <meta name="generator" content={Astro.generator} />
         <title>Blue Peace</title>
     </head>
-    <body>
+    <body class="my-0 mx-auto w-full max-w-[1300px] h-full flex flex-col">
         <Header/>
         <slot />
         <Footer/>
     </body>
 </html>
-
-<style>
-    html,
-    body {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1300px;
-        height: 100%;
-    }
-</style>

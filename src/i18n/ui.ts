@@ -14,7 +14,9 @@ export const ui = {
         'country': 'Land',
         'emissions': 'CO₂-Emissionen',
         'company': 'Unternehmen',
-        'search.placeholder': 'Suche nach Unternehmen oder Land...'
+        'search.placeholder': 'Suche nach Unternehmen oder Land...',
+        'footer.contact': 'Kontakt',
+        'footer.imprint': 'Impressum'
     },
     ar: {
         'nav.home': 'ما هو تغير المناخ؟',
@@ -24,6 +26,8 @@ export const ui = {
         'country': 'دولة',
         'emissions': 'انبعاثات ثاني أكسيد الكربون',
         'company': 'يتحرى',
-        'search.placeholder': 'البحث حسب الشركة أو البلد...'
+        'search.placeholder': 'البحث حسب الشركة أو البلد...',
+        'footer.contact': 'أكسيد',
+        'footer.imprint': 'الكربون'
     },
 } as const;
