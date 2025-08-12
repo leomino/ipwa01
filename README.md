@@ -1,12 +1,12 @@
-# Astro Starter Kit: Basics
+# Case Study for Web Development in Astro
 
-```sh
-npm create astro@latest -- --template basics
-```
+This project was created as part of my case study regarding web development for my university.
+Its about a fictional company that tries to fight climate change.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<img width="1506" height="868" alt="image" src="https://github.com/user-attachments/assets/e74088bf-e0c9-4392-b189-e918527782fe" />
 
-## 🚀 Project Structure
+
+## Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -16,19 +16,13 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── favicon.svg
 ├── src
 │   ├── assets
-│   │   └── astro.svg
 │   ├── components
-│   │   └── Welcome.astro
 │   ├── layouts
-│   │   └── Layout.astro
 │   └── pages
-│       └── index.astro
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -40,7 +34,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
