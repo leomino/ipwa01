@@ -16,7 +16,8 @@ export const ui = {
         'company': 'Unternehmen',
         'search.placeholder': 'Suche nach Unternehmen oder Land...',
         'footer.contact': 'Kontakt',
-        'footer.imprint': 'Impressum'
+        'footer.imprint': 'Impressum',
+        'footer.language': 'Sprache'
     },
     ar: {
         'nav.home': 'ما هو تغير المناخ؟',
@@ -27,7 +28,8 @@ export const ui = {
         'emissions': 'انبعاثات ثاني أكسيد الكربون',
         'company': 'يتحرى',
         'search.placeholder': 'البحث حسب الشركة أو البلد...',
-        'footer.contact': 'أكسيد',
-        'footer.imprint': 'الكربون'
+        'footer.contact': 'اتصال',
+        'footer.imprint': 'بصمة',
+        'footer.language': 'لغة'
     },
 } as const;
