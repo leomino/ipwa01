@@ -8,7 +8,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<footer class="w-full bg-gray-100 flex justify-between p-10 mt-auto items-start text-sm">
+<footer class="w-full bg-gray-100 flex justify-between p-5 md:p-10 mt-auto items-start text-sm">
     <div>
         <div class="font-bold">Sprache</div>
         {Object.entries(languages).map(([lang, label]) => (
@@ -19,12 +19,12 @@ const t = useTranslations(lang);
     </div>
     <div>
         <div class="font-bold">{t('footer.contact')}</div>
-        <div>kontakt@blue-peace.info</div>
+        <div>info@blue-peace.de</div>
         <div>0123 /456789</div>
     </div>
     <div>
         <div class="font-bold">{t('footer.imprint')}</div>
-        <div>Blue Peace e.V.</div>
+        <div>Blue Peace e.V</div>
         <div>Musterstraße 24</div>
         <div>Musterstadt</div>
     </div>
